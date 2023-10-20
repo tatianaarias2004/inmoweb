@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-sena{
+    background: #0f5668;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#nosotros{
+    width: 100%;
+    position: relative;
+    padding: 150px 0;
+}
+#nosotros img{
+    width: 500px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#nosotros h1{
+    color:    #0f5668;
+    padding-top: 50px;
+    font-size: -50px;
+    border-bottom: 2px solid #292928;
+    display: inline-block;
+    
+}
+
+#nosotros a{
+    padding: 14px 40px;
+    background: #0f5668;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    margin-top: 60px;
+    max-width: 200px;
+    transition: .5s;
+}
+#nosotros a:hover{
+    background: #000000;
+    border-radius: 20px;
+    max-width: 200px;
+    transform: scale(0.7);
+
+}
+#servicios{
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+#servicios h2{
+    color: #0f5668;
+    font-size: 36px;
+    border-bottom: 2px solid #292928;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+#servicios h2 span{
+    font-size: 54px;
+}
+#servicios .card-servicio{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    margin-bottom: 30px;
+    
+}
+#servicios .card-servicio::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #0f5668;
+    transition: .5s;
+}
+#servicios .card-servicio a{
+    color: #fff;
+    font-weight: 700px;
+    font-size: 26px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 9;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
+    transition: 1s;
+    border-radius: 8px;
+}
+#servicios .card-servicio:hover a{
+    background: #dad9d9 ;
+    color: #0f5668;
+    bottom: 48%;
+}
+#servicios .card-servicio:hover::after{
+    background: rgba(6, 6, 90, 0.418);
+}
+#contacto{
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+}
+footer{
+    background: #0f5668;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+#preguntas-fecuentes{
+    width: 100%;
+    position: relative;
+    padding: 60px 0;
+}
+
+#preguntas-frecuentes .p-left{
+    padding-left: 60px;
+}
+
+#preguntas-frecuentes h2{
+    color: #2396bd;
+    margin-bottom: 20px;
+}
+
+#reviews{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    background: url("../img/jonas-jaeken-Qe9VYGPpMzc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#reviews h2{
+    color: #fff;
+    text-align: center;
+    padding: 0 50px;
+    font-style: italic;
+}
+.img{
+    width:100px;
+    height:80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #fff;
+  }
+
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  #negociacion h2{
+    color: #0f5668;
+    font-size: 36px;
+    border-bottom: 2px solid #292928;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+#negociacion h2 span{
+    font-size: 54px;
+}
+.container-boton{
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.boton{
+    width: 80px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+#contacto h2{
+    color: #0f5668;
+    font-size: 36px;
+    border-bottom: 2px solid #292928;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+#contacto h2 span{
+    font-size: 54px;
+}
+#remoledacion h2{
+    color: #0f5668;
+    font-size: 36px;
+    border-bottom: 2px solid #292928;
+    display: inline-block;
+    margin-bottom: 80px;
+    
+}
+#remoledacion h2 span{
+    font-size: 54px;
+}
+
+#preguntas-frecuentes h2{
+    color: #0f5668;
+    font-size: 36px;
+    border-bottom: 2px solid #292928;
+    display: inline-block;
+    margin-bottom: 80px;
+    
+}
+#preguntas-frecuentes h2 span{
+    font-size: 54px;
+}
